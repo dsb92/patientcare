@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="2335">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+    </dependencies>
+    <scenes>
+        <!--Patient Care-->
+        <scene sceneID="2334">
+            <objects>
+                <viewController id="2335" customClass="LoginViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="2348"/>
+                        <viewControllerLayoutGuide type="bottom" id="2349"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="2345">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="Velkommen til PatientCare" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="2346">
+                                <rect key="frame" x="20" y="97" width="280" height="37"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="cpr nummer..." minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="2339" misplaced="YES">
+                                <rect key="frame" x="20" y="269" width="280" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="280" id="2424"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" enablesReturnKeyAutomatically="YES"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2337" misplaced="YES">
+                                <rect key="frame" x="116" y="325" width="91" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="2444"/>
+                                    <constraint firstAttribute="width" constant="91" id="2445"/>
+                                </constraints>
+                                <state key="normal" title="Login">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="Login med dit CPR-nummer" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="2459">
+                                <rect key="frame" x="22" y="134" width="280" height="37"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="2339" secondAttribute="trailing" constant="20" id="2422"/>
+                            <constraint firstItem="2339" firstAttribute="centerY" secondItem="2345" secondAttribute="centerY" id="2426"/>
+                            <constraint firstItem="2337" firstAttribute="centerX" secondItem="2345" secondAttribute="centerX" constant="1" id="2443"/>
+                            <constraint firstItem="2337" firstAttribute="top" secondItem="2339" secondAttribute="centerY" constant="41" id="2446"/>
+                            <constraint firstItem="2337" firstAttribute="centerX" secondItem="2345" secondAttribute="centerX" constant="1" id="2447"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Login" id="2384"/>
+                    <navigationItem key="navigationItem" title="Patient Care" id="2344"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="loginButton" destination="2337" id="2336"/>
+                        <outlet property="userNameTextField" destination="2339" id="2338"/>
+                        <segue destination="2474" kind="modal" identifier="ServicesSegue" id="2916"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2350" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="674" y="-1932"/>
+        </scene>
+        <!--Mine kald-->
+        <scene sceneID="1ZK-O7-uOU">
+            <objects>
+                <viewController id="muZ-cM-V9T" customClass="MyCallsViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="JHD-vW-mFm"/>
+                        <viewControllerLayoutGuide type="bottom" id="zMm-el-NXB"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Btx-4i-HGy">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Mine kald" id="kbY-Gb-WXv"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Rn5-JO-XNi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1206" y="-406"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="2473">
+            <objects>
+                <tabBarController definesPresentationContext="YES" id="2474" sceneMemberID="viewController">
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="2479">
+                        <rect key="frame" x="0.0" y="431" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="2612" kind="relationship" relationship="viewControllers" id="2815"/>
+                        <segue destination="9H7-8y-JbJ" kind="relationship" relationship="viewControllers" id="dLw-vv-KDr"/>
+                        <segue destination="2335" kind="relationship" relationship="viewControllers" id="WT9-TS-IUx"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2480" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="145" y="-1155"/>
+        </scene>
+        <!--Valgmuligheder-->
+        <scene sceneID="31I-aC-8XF">
+            <objects>
+                <viewController storyboardIdentifier="CategoryViewController" id="NyZ-4K-uwB" customClass="CategoryViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="vhY-bP-n1A"/>
+                        <viewControllerLayoutGuide type="bottom" id="M6j-RN-zA3"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="eRu-1c-TA6" customClass="CategoryViewController">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hvad kan vi hjælpe med?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Yq-yd-WQP">
+                                <rect key="frame" x="20" y="79" width="280" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Iky-dQ-nAl" misplaced="YES">
+                                <rect key="frame" x="0.0" y="196" width="320" height="372"/>
+                                <color key="backgroundColor" red="0.3381676381" green="0.68866953509999995" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="320" id="2545"/>
+                                    <constraint firstAttribute="height" constant="372" id="2546"/>
+                                </constraints>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="50" minimumInteritemSpacing="30" id="nMK-45-JPZ">
+                                    <size key="itemSize" width="50" height="50"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="20" minY="70" maxX="20" maxY="70"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="100" contentMode="center" reuseIdentifier="DummyCell1" id="KWd-Nu-bCN">
+                                        <rect key="frame" x="20" y="70" width="50" height="50"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="20" y="70" width="50" height="50"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                    </collectionViewCell>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="DummyCell2" id="HCy-Qc-WkX">
+                                        <rect key="frame" x="135" y="70" width="50" height="50"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="135" y="70" width="50" height="50"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                    </collectionViewCell>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="DummyCell3" id="Phx-fN-Cmd">
+                                        <rect key="frame" x="250" y="70" width="50" height="50"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="250" y="70" width="50" height="50"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                    </collectionViewCell>
+                                </cells>
+                            </collectionView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.33816763808860206" green="0.68866953509107076" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="Iky-dQ-nAl" secondAttribute="trailing" id="2543"/>
+                            <constraint firstAttribute="bottom" secondItem="Iky-dQ-nAl" secondAttribute="bottom" id="2544"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Valgmuligheder" id="5zL-bk-mNa">
+                        <barButtonItem key="rightBarButtonItem" title="Menu" id="aq9-H0-2ME"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="collectionViewUser" destination="Iky-dQ-nAl" id="name-outlet-Iky-dQ-nAl"/>
+                        <segue destination="y4d-Zb-dtS" kind="push" identifier="CategorySegue" id="HDO-w7-dxt"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1wy-0q-gzB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1738" y="-1155"/>
+        </scene>
+        <!--Type-->
+        <scene sceneID="Hjd-ZD-ehk">
+            <objects>
+                <viewController id="y4d-Zb-dtS" customClass="ChoiceViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="eM4-8P-V1g"/>
+                        <viewControllerLayoutGuide type="bottom" id="Jgz-Dc-D2V"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="TOI-W9-DS8">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Type" id="OB5-iL-Luj"/>
+                    <connections>
+                        <segue destination="Ttx-Ia-uU0" kind="push" identifier="DetailChoiceSegue" id="sgU-tk-IP6"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UqC-rv-y35" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2244" y="-1155"/>
+        </scene>
+        <!--Detalje-->
+        <scene sceneID="9VZ-d7-Qmc">
+            <objects>
+                <viewController id="Ttx-Ia-uU0" customClass="DetailViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="aJ8-qp-e14"/>
+                        <viewControllerLayoutGuide type="bottom" id="9SB-JJ-jjV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="QIT-vC-Njm">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Detalje" id="Bbk-j5-TmA"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="S3l-c9-1Ik" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2708" y="-1155"/>
+        </scene>
+        <!--Mine kald-->
+        <scene sceneID="GvW-3J-Ldi">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="9H7-8y-JbJ" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Mine kald" id="Xoq-D4-gaw"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="uT5-ht-jdh">
+                        <rect key="frame" x="0.0" y="20" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="muZ-cM-V9T" kind="relationship" relationship="rootViewController" id="y84-v1-BAk"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fXK-9D-f6z" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="674" y="-406"/>
+        </scene>
+        <!--Valgmuligheder-->
+        <scene sceneID="2611">
+            <objects>
+                <navigationController definesPresentationContext="YES" id="2612" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Valgmuligheder" id="2814"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="2615">
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="NyZ-4K-uwB" kind="relationship" relationship="rootViewController" id="2653"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2616" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1236" y="-1155"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Images/menu.png" width="25" height="25"/>
+        <image name="AppIcon.appiconset/Icon-40.png" width="40" height="40"/>
+        <image name="AppIcon.appiconset/Icon-60.png" width="180" height="180"/>
+        <image name="AppIcon.appiconset/Icon-72.png" width="72" height="72"/>
+        <image name="AppIcon.appiconset/Icon-76.png" width="76" height="76"/>
+        <image name="AppIcon.appiconset/Icon-Small-50.png" width="50" height="50"/>
+        <image name="AppIcon.appiconset/Icon-Small.png" width="29" height="29"/>
+        <image name="AppIcon.appiconset/Icon.png" width="57" height="57"/>
+        <image name="Default-568h.png" width="640" height="1136"/>
+        <image name="Icon-60.png" width="120" height="120"/>
+        <image name="Icon-76.png" width="76" height="76"/>
+        <image name="Icon-Small-40.png" width="40" height="40"/>
+        <image name="Icon-Small-50.png" width="50" height="50"/>
+        <image name="Icon-Small.png" width="29" height="29"/>
+    </resources>
+</document>

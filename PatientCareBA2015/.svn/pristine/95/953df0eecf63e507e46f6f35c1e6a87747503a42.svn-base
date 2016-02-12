@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="acdmihaba.personaleapp.personaleapplication"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="23" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="acdmihaba.personaleapp.personaleapplication.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="acdmihaba.personaleapp.personaleapplication.ItemPickedActivity"
+            android:label="Item picked"
+            android:parentActivityName="acdmihaba.personaleapp.personaleapplication.MainActivity"
+            android:theme="@style/AppTheme" >
+            <intent-filter>
+                <action android:name="acdmihaba.personaleapp.personaleapplication.ITEM_PICKED" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

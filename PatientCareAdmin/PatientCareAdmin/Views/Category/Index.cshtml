@@ -1,0 +1,38 @@
+﻿<!--
+Category/Index
+-->
+@using PatientCareAdmin.Models
+@model List<CategoryModel>
+@{
+    ViewBag.Title = "Opret kategori ";
+    var i = 0;
+}
+<div class="jumbotron">
+    <h2>Kategori</h2>
+    <p class="lead">På denne side er det muligt at se eksisterende kategorier og oprette nye</p>
+    @Html.ActionLink("Opret ny kategori", "Create", "Category", null, new {@class = "btn btn-default"})
+</div>
+<div style="height: 300px; overflow: auto">
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Navn</th>
+                <th>Billede</th>
+                <th>Slet</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                i++;
+                <tr>
+                    <th scope="row">@i</th>
+                    <td>@Html.DisplayFor(model => item.Name)</td>
+                    <td><a href="@item.Picture" target="_blank">Tryk her for at se billedet</a></td>
+                    <td><a class="glyphicon glyphicon-remove" href='@Url.Action("Delete", "Category", new {id = item.CategoryId})'></a></td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

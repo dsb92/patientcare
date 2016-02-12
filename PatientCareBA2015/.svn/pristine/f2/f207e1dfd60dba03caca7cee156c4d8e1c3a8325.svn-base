@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\CamillaMarsi\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.0.1\support-annotations-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="C:\Users\CamillaMarsi\Desktop\PersonaleApplication\app\build\intermediates\pre-dexed\debug\support-annotations-23.0.1-cebbd6c3bdbbd2bb3c01cee38bfa338d1c609647.jar" />
+    </item>
+    <item
+        jar="C:\Users\CamillaMarsi\Desktop\PersonaleApplication\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="C:\Users\CamillaMarsi\Desktop\PersonaleApplication\app\build\intermediates\pre-dexed\debug\classes-03756839e51c422c6f7a1d59c65dc94e1ecc3e19.jar" />
+    </item>
+    <item
+        jar="C:\Users\CamillaMarsi\Desktop\PersonaleApplication\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="C:\Users\CamillaMarsi\Desktop\PersonaleApplication\app\build\intermediates\pre-dexed\debug\classes-c53c38a8cad0398b65773f88f35924b65e7bf0b9.jar" />
+    </item>
+    <item
+        jar="C:\Users\CamillaMarsi\Desktop\PersonaleApplication\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\libs\internal_impl-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="C:\Users\CamillaMarsi\Desktop\PersonaleApplication\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.1-d6bdf782efbcd82aaa42613229a935f864650ba3.jar" />
+    </item>
+
+</items>

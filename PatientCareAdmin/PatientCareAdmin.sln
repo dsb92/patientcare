@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatientCareAdmin", "PatientCareAdmin\PatientCareAdmin.csproj", "{AC0DDE60-8699-494F-82E1-9766B27A8C79}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatientCareAdmin.Tests", "PatientCareAdmin.Tests\PatientCareAdmin.Tests.csproj", "{A40E3C2B-9784-4FEA-BBD7-D52E3D4E4EE9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{0392EBC5-8C69-489B-8D84-B8DACF0FC646}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logging", "Logging\Logging.csproj", "{0057F215-DA27-465C-BBDA-BFB7B49B0021}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://ajl-projekt.dgi.dk:8080/tfs/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = PatientCareAdmin.Tests\\PatientCareAdmin.Tests.csproj
+		SccProjectName1 = PatientCareAdmin.Tests
+		SccLocalPath1 = PatientCareAdmin.Tests
+		SccProjectUniqueName2 = PatientCareAdmin\\PatientCareAdmin.csproj
+		SccProjectName2 = PatientCareAdmin
+		SccLocalPath2 = PatientCareAdmin
+		SccProjectUniqueName3 = Logging\\Logging.csproj
+		SccProjectName3 = Logging
+		SccLocalPath3 = Logging
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AC0DDE60-8699-494F-82E1-9766B27A8C79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC0DDE60-8699-494F-82E1-9766B27A8C79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC0DDE60-8699-494F-82E1-9766B27A8C79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC0DDE60-8699-494F-82E1-9766B27A8C79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A40E3C2B-9784-4FEA-BBD7-D52E3D4E4EE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A40E3C2B-9784-4FEA-BBD7-D52E3D4E4EE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A40E3C2B-9784-4FEA-BBD7-D52E3D4E4EE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A40E3C2B-9784-4FEA-BBD7-D52E3D4E4EE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0057F215-DA27-465C-BBDA-BFB7B49B0021}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0057F215-DA27-465C-BBDA-BFB7B49B0021}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0057F215-DA27-465C-BBDA-BFB7B49B0021}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0057F215-DA27-465C-BBDA-BFB7B49B0021}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

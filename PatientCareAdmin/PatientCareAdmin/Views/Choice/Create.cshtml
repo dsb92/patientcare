@@ -1,0 +1,46 @@
+﻿<!--
+    Choice/Create
+-->
+@model PatientCareAdmin.Models.ChoiceModel
+@{
+    ViewBag.Title = "Opret ny Type ";
+    var i = 0;
+ }
+<div class="jumbotron">
+    <h2>Opret ny Type</h2>
+    @Html.ActionLink("Tilbage til liste", "Index", "Choice", null, new {@class = "btn btn-default"})
+    @Html.ActionLink("Opret ny kategori", "Create", "Category", null, new {@class = "btn btn-default"})
+
+    @using (Html.BeginForm("Create", "Choice", FormMethod.Post))
+    {
+        @Html.AntiForgeryToken()
+        <div class="form-group">
+            <hr/>
+            @Html.ValidationSummary(true)
+            <div class="form-group">
+                @Html.TextBoxFor(model => model.Name, new {@class = "form-control", @placeholder = "Navn"})
+                @Html.ValidationMessageFor(model => model.Name, "", new {@class = "text-danger"})
+            </div>
+            <div class="form-group dropdown">
+                @Html.DropDownList("CategoryId", null, new {@class = "btn btn-default btn-block dropdown-toggle"})
+            </div>
+            <div class="form-group dropdown">
+                @Html.DropDownList("DetailId", null, new {@class = "btn btn-default btn-block dropdown-toggle", @id = "DetailId", onchange = "setDetail()" })
+            </div>
+            <div class="form-group">
+                @Html.TextBoxFor(m => m.DetailsList, new {@class = "form-control", @placeholder = "Valgte Tilbehør", @id = "valgteTilbehør"})
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Opret" id="CreateSubmit" class="btn btn-lg btn-primary btn-block"/>
+            </div>
+        </div>
+    }
+</div>
+
+<script language="javascript">
+    function setDetail() {
+        if (document.getElementById("DetailId").value === "000000") {}
+        else
+        document.getElementById("valgteTilbehør").value += document.getElementById("DetailId").options[document.getElementById("DetailId").selectedIndex].text + ",";
+    }
+</script>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Navn"
+        android:id="@+id/nameLargeTextView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Stue nr"
+        android:id="@+id/taskMediumTextView"
+        android:layout_below="@+id/imageView2"
+        android:layout_alignStart="@+id/nameLargeTextView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Detaljer"
+        android:id="@+id/roomMediumTextView"
+        android:layout_below="@+id/imageView2"
+        android:layout_alignStart="@+id/nameLargeTextView"
+        android:layout_marginTop="100dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView2"
+        android:layout_alignTop="@+id/nameLargeTextView"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="18dp"
+        android:src="@mipmap/ic_launcher" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Opgavetype"
+        android:id="@+id/textView4"
+        android:layout_below="@+id/taskMediumTextView"
+        android:layout_alignStart="@+id/taskMediumTextView"
+        android:layout_marginTop="24dp" />
+
+    <TextClock
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textClock2"
+        android:layout_alignBottom="@+id/nameLargeTextView"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Føj opgave til mine opgaver"
+        android:id="@+id/buttonOK"
+        android:layout_marginBottom="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout><!-- From: file:/C:/Users/CamillaMarsi/Desktop/PersonaleApplication/app/src/main/res/layout/activity_item_picked.xml -->

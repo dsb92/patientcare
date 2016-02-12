@@ -1,0 +1,48 @@
+﻿<!--
+Choice/Index
+-->
+@using PatientCareAdmin.Models
+@model List<ChoiceModel>
+@{
+    ViewBag.Title = "Opret type ";
+    var i = 0;
+}
+
+<div class="jumbotron">
+    <h2>Typer</h2>
+    <p class="lead">På denne side er det muligt at se eksisterende typer og oprette nye</p>
+    
+    @Html.ActionLink("Opret ny type", "Create", "Choice",null,  new {@class = "btn btn-primary"})
+</div>
+
+<div style="height: 300px; overflow: auto">
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Navn</th>
+                <th>Kategori</th>
+                <th>Tilbehør</th>
+                <th>Slet</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                i++;
+                <tr>
+                    <th scope="row">@i</th>
+                    <td>@Html.DisplayFor(model => item.Name)</td>
+                    <td>@Html.DisplayFor(model => item.Category)</td>
+                    <td>
+                        @foreach (var detail in item.Details)
+                        {
+                            @Html.DisplayFor(model => detail.Name)
+                        }
+                    </td>
+                    <td><a class="glyphicon glyphicon-remove" href='@Url.Action("Delete", "Choice", new {id = item.ChoiceId})'></a></td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

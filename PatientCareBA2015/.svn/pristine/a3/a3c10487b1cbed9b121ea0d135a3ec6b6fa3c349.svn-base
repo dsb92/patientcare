@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="CPR"
+        android:id="@+id/textView3"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="69dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editCPR"
+        android:layout_below="@+id/textView3"
+        android:layout_alignStart="@+id/textView3"
+        android:layout_marginTop="32dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="30dp" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinnerTasks"
+        android:layout_marginTop="33dp"
+        android:layout_marginRight="30dp"
+        android:layout_below="@+id/textView9"
+        android:layout_alignStart="@+id/textView9" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Opgavetype"
+        android:id="@+id/textView9"
+        android:layout_centerVertical="true"
+        android:layout_alignStart="@+id/editCPR" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Opret"
+        android:id="@+id/buttonCreate"
+        android:layout_below="@+id/spinnerTasks"
+        android:layout_alignStart="@+id/spinnerTasks"
+        android:layout_marginTop="42dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Føj til mine opgaver"
+        android:id="@+id/buttonAdd"
+        android:layout_alignTop="@+id/buttonCreate"
+        android:layout_alignEnd="@+id/spinnerTasks"
+        android:layout_marginEnd="30dp" />
+</RelativeLayout>

@@ -1,0 +1,38 @@
+﻿<!--
+Detail/Index
+-->
+@using PatientCareAdmin.Models
+@model List<DetailModel>
+@{
+    ViewBag.Title = "Opret tilbehør ";
+    var i = 0;
+}
+<div class="jumbotron">
+    <h2>Tilbehør</h2>
+    <p class="lead">På denne side er det muligt at se eksisterende tilbehør og oprette nye</p>
+    @Html.ActionLink("Opret nyt tilbehør", "Create", "Detail", null, new { @class = "btn btn-default" })
+</div>
+<div style="height: 300px; overflow: auto">
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Navn</th>
+                @*<th>Valg</th>*@
+                <th>Slet</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                i++;
+                <tr>
+                    <th scope="row">@i</th>
+                    <td>@Html.DisplayFor(model => item.Name)</td>
+                    @*<td>@Html.DisplayFor(model => item.ChoiceId)</td>*@
+                    <td><a class="glyphicon glyphicon-remove" href='@Url.Action("Delete", "Detail", new {id = item.DetailId})'></a></td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

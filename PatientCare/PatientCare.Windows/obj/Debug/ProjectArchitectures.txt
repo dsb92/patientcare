@@ -1,0 +1,2 @@
+C:\Users\davidbuhauer\Source\Workspaces\Ny BA\BA\PatientCare\PatientCare.Shared\PatientCare.Shared.csproj;neutral
+C:\Users\davidbuhauer\Source\Workspaces\Ny BA\BA\PatientCare\PatientCare.Windows\PatientCare.Windows.csproj;neutral

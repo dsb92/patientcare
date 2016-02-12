@@ -1,0 +1,10 @@
+﻿@{
+    ViewBag.Title = "PatientCare - Home";
+}
+<div class="jumbotron">
+    <h2>Velkommen til PatientCare AdminApp</h2>
+    <p class="lead">Siden her er lavet med det formål at administere PatientCare's apps</p>
+    @Html.ActionLink("Kategorier","Index","Category", null, new {@class = "btn btn-primary"})
+    @Html.ActionLink("Typer", "Index", "Choice", null, new {@class = "btn btn-primary"})
+    @Html.ActionLink("Tilbehør", "Index", "Detail", null, new { @class = "btn btn-primary" })
+</div>

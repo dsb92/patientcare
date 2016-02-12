@@ -1,0 +1,30 @@
+﻿<!--
+    Account/Index
+-->
+@model PatientCareAdmin.Models.LoginModel
+@{
+    ViewBag.Title = "PatientCare - Sign in";
+}
+
+@using (Html.BeginForm("Login", "Account", FormMethod.Post, new { @class = "form-signin" }))
+{
+    @Html.AntiForgeryToken()
+    <h2 class="form-signin-heading">Please sign in</h2>
+    @Html.ValidationSummary(true)
+
+    @Html.LabelFor(m => m.UserName, new { @class = "sr-only" })
+    @Html.TextBoxFor(m => m.UserName, new { @class = "form-control", placeholder = "Username" })
+    @Html.ValidationMessageFor(m => m.UserName)
+
+    @Html.LabelFor(m => m.Password, new { @class = "sr-only" })
+    @Html.TextBoxFor(m => m.Password, new { @class = "form-control", placeholder = "Password", type="password" })
+    @Html.ValidationMessageFor(m => m.Password)
+    
+    @*<div class="checkbox">
+        @Html.LabelFor(m => m.RememberMe)
+        @Html.CheckBoxFor(m => m.RememberMe)
+    </div>*@
+
+    <input class="btn btn-lg btn-primary btn-block" type="submit" value="Sign in" />
+}
+

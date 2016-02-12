@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DAVIDBUHAUEB6CE</Machine>
+    <WindowsUser>davidbuhauer</WindowsUser>
+    <TargetPlatformIdentifier>WindowsPhoneApp</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>42964610-e4ea-414b-be78-ebc28def7756</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\davidbuhauer\Source\Workspaces\BA\PatientCare\PatientCare.Windows\obj\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\davidbuhauer\Source\Workspaces\BA\PatientCare\PatientCare.Windows\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\davidbuhauer\Source\Workspaces\BA\PatientCare\PatientCare.Windows\bin\Debug\PatientCare.Windows.exe">
+      <PackagePath>PatientCare.Windows.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\davidbuhauer\Source\Workspaces\BA\PatientCare\PatientCare.Windows\bin\Debug\PatientCare.Windows.exe.config">
+      <PackagePath>PatientCare.Windows.exe.config</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\davidbuhauer\Source\Workspaces\BA\PatientCare\PatientCare.Shared\bin\Debug\PatientCare.Shared.dll">
+      <PackagePath>PatientCare.Shared.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\davidbuhauer\Source\Workspaces\BA\PatientCare\packages\SQLite.Net-PCL.3.0.5\lib\portable-win81+wpa81\SQLite.Net.dll">
+      <PackagePath>SQLite.Net.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\davidbuhauer\Source\Workspaces\BA\PatientCare\packages\SQLite.Net-PCL.3.0.5\lib\portable-win81+wpa81\SQLite.Net.Platform.WinRT.dll">
+      <PackagePath>SQLite.Net.Platform.WinRT.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\davidbuhauer\Source\Workspaces\BA\PatientCare\PatientCare.Shared\bin\Debug\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\davidbuhauer\Source\Workspaces\BA\PatientCare\PatientCare.Windows\Assets\Logo.scale-240.png">
+      <PackagePath>Assets\Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\davidbuhauer\Source\Workspaces\BA\PatientCare\PatientCare.Windows\Assets\SmallLogo.scale-240.png">
+      <PackagePath>Assets\SmallLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\davidbuhauer\Source\Workspaces\BA\PatientCare\PatientCare.Windows\Assets\SplashScreen.scale-240.png">
+      <PackagePath>Assets\SplashScreen.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\davidbuhauer\Source\Workspaces\BA\PatientCare\PatientCare.Windows\Assets\Square71x71Logo.scale-240.png">
+      <PackagePath>Assets\Square71x71Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\davidbuhauer\Source\Workspaces\BA\PatientCare\PatientCare.Windows\Assets\StoreLogo.scale-240.png">
+      <PackagePath>Assets\StoreLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\davidbuhauer\Source\Workspaces\BA\PatientCare\PatientCare.Windows\Assets\WideLogo.scale-240.png">
+      <PackagePath>Assets\WideLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\davidbuhauer\Source\Workspaces\BA\PatientCare\PatientCare.Windows\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\davidbuhauer\Source\Workspaces\BA\PatientCare\PatientCare.Windows\bin\Debug\CategoriesPage.xbf">
+      <PackagePath>CategoriesPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\davidbuhauer\Source\Workspaces\BA\PatientCare\PatientCare.Windows\bin\Debug\LoginPage.xbf">
+      <PackagePath>LoginPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\davidbuhauer\Source\Workspaces\BA\PatientCare\PatientCare.Windows\bin\Debug\PatientCare.Windows.xr.xml">
+      <PackagePath>PatientCare.Windows.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\davidbuhauer\Source\Workspaces\BA\PatientCare\PatientCare.Windows\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

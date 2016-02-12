@@ -1,0 +1,13 @@
+/Volumes/C/Users/davidbuhauer/Source/Workspaces/Ny BA/BA/PatientCare/PatientCare.Shared/obj/Debug/.NETPortable,Version=v4.5,Profile=Profile111.AssemblyAttribute.cs
+/Volumes/C/Users/davidbuhauer/Source/Workspaces/Ny BA/BA/PatientCare/PatientCare.Shared/bin/Debug/PatientCare.Shared.dll.config
+/Volumes/C/Users/davidbuhauer/Source/Workspaces/Ny BA/BA/PatientCare/PatientCare.Shared/bin/Debug/PatientCare.Shared.dll.mdb
+/Volumes/C/Users/davidbuhauer/Source/Workspaces/Ny BA/BA/PatientCare/PatientCare.Shared/obj/Debug/PatientCare.Shared.dll
+/Volumes/C/Users/davidbuhauer/Source/Workspaces/Ny BA/BA/PatientCare/PatientCare.Shared/obj/Debug/PatientCare.Shared.dll.mdb
+/Volumes/C/Users/davidbuhauer/Source/Workspaces/Ny BA/BA/PatientCare/PatientCare.Shared/bin/Debug/Microsoft.Threading.Tasks.dll
+/Volumes/C/Users/davidbuhauer/Source/Workspaces/Ny BA/BA/PatientCare/PatientCare.Shared/bin/Debug/Microsoft.Threading.Tasks.Extensions.dll
+/Volumes/C/Users/davidbuhauer/Source/Workspaces/Ny BA/BA/PatientCare/PatientCare.Shared/bin/Debug/Newtonsoft.Json.dll
+/Volumes/C/Users/davidbuhauer/Source/Workspaces/Ny BA/BA/PatientCare/PatientCare.Shared/bin/Debug/SQLite.Net.dll
+/Volumes/C/Users/davidbuhauer/Source/Workspaces/Ny BA/BA/PatientCare/PatientCare.Shared/bin/Debug/System.Net.Http.Extensions.dll
+/Volumes/C/Users/davidbuhauer/Source/Workspaces/Ny BA/BA/PatientCare/PatientCare.Shared/bin/Debug/System.Net.Http.Formatting.dll
+/Volumes/C/Users/davidbuhauer/Source/Workspaces/Ny BA/BA/PatientCare/PatientCare.Shared/bin/Debug/System.Net.Http.Primitives.dll
+/Volumes/C/Users/davidbuhauer/Source/Workspaces/Ny BA/BA/PatientCare/PatientCare.Shared/bin/Debug/PatientCare.Shared.dll

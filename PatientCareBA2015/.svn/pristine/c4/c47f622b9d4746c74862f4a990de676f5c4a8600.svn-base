@@ -1,0 +1,15 @@
+package acdmihaba.personaleapp.personaleapplication;
+
+import acdmihaba.personaleapp.personaleapplication.model.Item;
+
+import java.util.ArrayList;
+/**
+ * Created by Camilla Marsi on 10-09-2015.
+ */
+public interface ItemSelectorInterface {
+
+    public void onItemSelected(int position);
+    public ArrayList<Item> getMovieList();
+    public Item getCurrentSelection();
+    public void viewSpecial();
+}

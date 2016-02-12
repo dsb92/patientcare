@@ -1,0 +1,9 @@
+/Volumes/C/Users/davidbuhauer/Source/Workspaces/BA/PatientCare/PatientCare.Shared.Test/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/Volumes/C/Users/davidbuhauer/Source/Workspaces/BA/PatientCare/PatientCare.Shared.Test/bin/Debug/PatientCare.Shared.Test.dll.mdb
+/Volumes/C/Users/davidbuhauer/Source/Workspaces/BA/PatientCare/PatientCare.Shared.Test/bin/Debug/PatientCare.Shared.Test.dll
+/Volumes/C/Users/davidbuhauer/Source/Workspaces/BA/PatientCare/PatientCare.Shared.Test/obj/Debug/PatientCare.Shared.Test.dll
+/Volumes/C/Users/davidbuhauer/Source/Workspaces/BA/PatientCare/PatientCare.Shared.Test/obj/Debug/PatientCare.Shared.Test.dll.mdb
+/Volumes/C/Users/davidbuhauer/Source/Workspaces/BA/PatientCare/PatientCare.Shared.Test/bin/Debug/Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+/Volumes/C/Users/davidbuhauer/Source/Workspaces/BA/PatientCare/PatientCare.Shared.Test/bin/Debug/Newtonsoft.Json.dll
+/Volumes/C/Users/davidbuhauer/Source/Workspaces/BA/PatientCare/PatientCare.Shared.Test/bin/Debug/PatientCare.Shared.dll
+/Volumes/C/Users/davidbuhauer/Source/Workspaces/BA/PatientCare/PatientCare.Shared.Test/bin/Debug/PatientCare.Shared.dll.mdb

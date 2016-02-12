@@ -1,0 +1,74 @@
+package acdmihaba.personaleapp.personaleapplication.adaptors;
+
+import android.content.Context;
+import android.database.DataSetObserver;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.BaseAdapter;
+import android.widget.ListAdapter;
+import android.widget.TextView;
+
+import acdmihaba.personaleapp.personaleapplication.R;
+import acdmihaba.personaleapp.personaleapplication.model.Item;
+
+import java.util.ArrayList;
+
+/**
+ * Created by Camilla Marsi on 08-09-2015.
+ */
+public class ItemListAdaptor extends BaseAdapter {
+
+    Context context;
+    ArrayList<Item> items;
+    Item item;
+
+    public ItemListAdaptor(Context c, ArrayList<Item> itemList){
+        this.context = c;
+        this.items = itemList;
+    }
+
+    @Override
+    public int getCount() {
+        if(items !=null) {
+            return items.size();
+        } else {
+            return 0;
+        }
+    }
+
+    @Override
+    public Object getItem(int position) {
+        if(items !=null) {
+            return items.get(position);
+        } else {
+            return null;
+        }
+    }
+
+    @Override
+    public long getItemId(int position) {
+        return position;
+    }
+
+    @Override
+    public View getView(int position, View convertView, ViewGroup parent) {
+
+        if (convertView == null) {
+            LayoutInflater movieInflator = (LayoutInflater) this.context
+                    .getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+            convertView = movieInflator.inflate(R.layout.list_item_view, null);
+        }
+
+        item = items.get(position);
+        if(item!=null){
+            TextView txtName = (TextView) convertView.findViewById(R.id.textView1);
+            txtName.setText(item.getName());
+
+
+            TextView txtType = (TextView) convertView.findViewById(R.id.textView2);
+            txtType.setText((item.getType()));
+        }
+        return convertView;
+    }
+}

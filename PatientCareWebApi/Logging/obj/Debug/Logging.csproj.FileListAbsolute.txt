@@ -1,0 +1,1 @@
+C:\Users\davidbuhauer\Source\Workspaces\Ny BA\BA\PatientCareWebApi\Logging\obj\Debug\Logging.csprojResolveAssemblyReference.cache

@@ -1,0 +1,1 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"><item android:id="@+id/mycall" android:title="@string/MyCall" /><item android:id="@+id/choicelist" android:title="@string/ChoiceList" /><item android:id="@+id/logoff" android:title="@string/LogOff" /></menu>

@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">PatientCare</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_pick_item">Tag opgave</string>
+
+    <string name="button_cancel">Cancel</string>
+    <string name="button_ok">OK</string>
+    <string name="title_activity_main">The UI Demo</string>
+    <string name="title_activity_edit_text">EditText Demo</string>
+
+
+    <string name="action_core">Core action</string>
+    <string name="action_cool_feature">Cool feature</string>
+    <string name="action_do_stuff">Do stuff</string>
+    <string name="action_extra_thing">Extra thing</string>
+    <string name="action_exit">Exit</string>
+    <string name="title_picker_demo">Picker Demo</string>
+
+    <string-array name="tasks_array">
+        <item>Vand</item>
+        <item>Kaffe</item>
+        <item>The</item>
+        <item>Juice</item>
+        <item>Smoothie</item>
+    </string-array>
+
+
+</resources>

@@ -1,0 +1,8 @@
+<XamlCompilerSaveState>
+  <ReferenceAssemblyList>
+    <LocalAssembly PathName="c:\users\davidbuhauer\source\workspaces\ny ba\ba\patientcare\patientcare.windows\obj\debug\intermediatexaml\patientcare.windows.exe" HashGuid="1898027b-a8d7-1fe4-035d-ed0c7c0f2bbd" />
+    <ReferenceAssembly PathName="c:\users\davidbuhauer\source\workspaces\ny ba\ba\patientcare\patientcare.shared\bin\debug\patientcare.shared.dll" HashGuid="df40dda0-0d8c-9028-2243-d09b4e793006" />
+    <ReferenceAssembly PathName="c:\users\davidbuhauer\source\workspaces\ny ba\ba\patientcare\packages\sqlite.net-pcl.3.0.5\lib\portable-win81+wpa81\sqlite.net.dll" HashGuid="4840b8e3-dc66-6793-97b8-8abc180963b6" />
+    <ReferenceAssembly PathName="c:\users\davidbuhauer\source\workspaces\ny ba\ba\patientcare\packages\sqlite.net-pcl.3.0.5\lib\portable-win81+wpa81\sqlite.net.platform.winrt.dll" HashGuid="38f34186-7ad1-6b9f-3805-295b67ec275e" />
+  </ReferenceAssemblyList>
+</XamlCompilerSaveState>

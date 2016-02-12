@@ -1,0 +1,10 @@
+C:\Users\davidbuhauer\Source\Workspaces\Ny BA\BA\PatientCare\App1\bin\iPhone\Debug\App1.exe
+C:\Users\davidbuhauer\Source\Workspaces\Ny BA\BA\PatientCare\App1\bin\iPhone\Debug\App1.pdb
+C:\Users\davidbuhauer\Source\Workspaces\Ny BA\BA\PatientCare\App1\obj\iPhone\Debug\ibtool\MainStoryboard.storyboardc\Info.plist
+C:\Users\davidbuhauer\Source\Workspaces\Ny BA\BA\PatientCare\App1\obj\iPhone\Debug\ibtool\MainStoryboard.storyboardc\UIViewController-vXZ-lx-hvc.nib
+C:\Users\davidbuhauer\Source\Workspaces\Ny BA\BA\PatientCare\App1\obj\iPhone\Debug\ibtool\MainStoryboard.storyboardc\vXZ-lx-hvc-view-kh9-bI-dsS.nib
+C:\Users\davidbuhauer\Source\Workspaces\Ny BA\BA\PatientCare\App1\obj\iPhone\Debug\optimized\Default-568h@2x.png
+C:\Users\davidbuhauer\Source\Workspaces\Ny BA\BA\PatientCare\App1\obj\iPhone\Debug\optimized\Entitlements.plist
+C:\Users\davidbuhauer\Source\Workspaces\Ny BA\BA\PatientCare\App1\obj\iPhone\Debug\optimized\
+C:\Users\davidbuhauer\Source\Workspaces\Ny BA\BA\PatientCare\App1\obj\iPhone\Debug\App1.exe
+C:\Users\davidbuhauer\Source\Workspaces\Ny BA\BA\PatientCare\App1\obj\iPhone\Debug\App1.pdb

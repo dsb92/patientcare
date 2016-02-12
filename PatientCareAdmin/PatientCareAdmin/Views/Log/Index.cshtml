@@ -1,0 +1,35 @@
+﻿@model List<Logging.Log>
+
+@{
+    ViewBag.Title = "Logging side ";
+}
+
+
+<div class="jumbotron">
+    <h2>Logging</h2>
+    <p class="lead">Logging af PatienCare Apps</p>
+</div>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>Time</th>
+            <th>Logger</th>
+            <th>Type</th>
+            <th>Message</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <th scope="row">@Html.DisplayFor(modelitem => item.ID)</th>
+                <td>@Html.DisplayFor(modelitem => item.TimeStamp)</td>
+                <td>@Html.DisplayFor(modelitem => item.Logger)</td>
+                <td>@Html.DisplayFor(modelitem => item.Type)</td>
+                <td>@Html.DisplayFor(modelitem => item.Message)</td>
+            </tr>
+        }
+    </tbody>
+</table>

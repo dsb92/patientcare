@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Velkommen til PatientCare"
+        android:id="@+id/welcomeTextView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Brugernavn"
+        android:id="@+id/userIDTextView"
+        android:layout_marginTop="48dp"
+        android:layout_marginLeft="16dp"
+        android:layout_below="@+id/textView5"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/userIDEditText"
+        android:layout_below="@+id/userIDTextView"
+        android:layout_alignStart="@+id/userIDTextView"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Password"
+        android:id="@+id/passwrdTextView"
+        android:layout_below="@+id/userIDEditText"
+        android:layout_alignStart="@+id/userIDEditText"
+        android:layout_marginTop="37dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/passwordEditText"
+        android:layout_below="@+id/passwrdTextView"
+        android:layout_alignStart="@+id/passwrdTextView"
+        android:layout_alignEnd="@+id/userIDEditText" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Log ind med dine loginoplysninger"
+        android:id="@+id/textView5"
+        android:layout_below="@+id/welcomeTextView"
+        android:layout_alignParentStart="true"
+        android:layout_marginRight="80dp"
+        android:layout_marginLeft="80dp" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Log på"
+        android:id="@+id/logonButton"
+        android:layout_alignParentBottom="true"
+        android:layout_alignEnd="@+id/passwordEditText"
+        android:layout_marginBottom="61dp" />
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/switch1"
+        android:layout_above="@+id/logonButton"
+        android:layout_alignStart="@+id/passwordEditText"
+        android:checked="false" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="husk mine loginoplysninger"
+        android:id="@+id/textView7"
+        android:layout_alignBottom="@+id/switch1"
+        android:layout_alignStart="@+id/welcomeTextView" />
+
+</RelativeLayout><!-- From: file:/C:/Users/CamillaMarsi/Desktop/PersonaleApplication/app/src/main/res/layout/activity_login.xml -->
